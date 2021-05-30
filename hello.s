@@ -12,7 +12,7 @@ _start:
 	mov rax, 1
 	mov rdi, 1
 	mov rsi, text
-	mov rdx, 13
+	mov rdx, 14
 	syscall
 ; syscall: when a program requests a service from the kernel
 ; syscalls have an ID and take arguments
