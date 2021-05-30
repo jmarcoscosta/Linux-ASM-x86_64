@@ -24,3 +24,4 @@ _start:
 	mov rax, 60
 	mov rdi, 0
 	syscall
+; sys_exit (ID = 60, rdi = exit code, 0 if success)
